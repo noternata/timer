@@ -1,0 +1,40 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto ff77990a6e8849e5bd5a55c4855d8d59 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_behav xil_defaultlib.test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'clock_enable' [M:/2010/IVBO-01-20/Ermishin/S2_L2/S2_L1.srcs/sources_1/new/top.v:66]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'rst' [M:/2010/IVBO-01-20/Ermishin/S2_L2/S2_L1.srcs/sources_1/new/top.v:67]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 4 for port 'the_end' [M:/2010/IVBO-01-20/Ermishin/S2_L2/S2_L1.srcs/sources_1/imports/new/introsort_helper.v:64]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 3 for port 'start' [M:/2010/IVBO-01-20/Ermishin/S2_L2/S2_L1.srcs/sources_1/imports/new/introsort_helper.v:75]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clk_div
+Compiling module xil_defaultlib.D_trigger
+Compiling module xil_defaultlib.sync
+Compiling module xil_defaultlib.counter(MAX=31,WIDTH=5)
+Compiling module xil_defaultlib.D_trigger_out
+Compiling module xil_defaultlib.T_trigger_signal
+Compiling module xil_defaultlib.Button
+Compiling module xil_defaultlib.counter(MAX=7,WIDTH=3)
+Compiling module xil_defaultlib.LED
+Compiling module xil_defaultlib.ps2_keyboard
+Compiling module xil_defaultlib.ps2_decoder
+Compiling module xil_defaultlib.ps2_top
+Compiling module xil_defaultlib.partition
+Compiling module xil_defaultlib.introsort_helper(maxDepth=0)
+Compiling module xil_defaultlib.introsort_helper(maxDepth=1)
+Compiling module xil_defaultlib.introsort_helper_default
+Compiling module xil_defaultlib.introsort_helper(maxDepth=3)
+Compiling module xil_defaultlib.introsort_helper(maxDepth=4)
+Compiling module xil_defaultlib.introsort_helper(maxDepth=5)
+Compiling module xil_defaultlib.introsort_helper(maxDepth=6)
+Compiling module xil_defaultlib.introsort_helper(maxDepth=7)
+Compiling module xil_defaultlib.sort_machine
+Compiling module xil_defaultlib.fsm
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_behav

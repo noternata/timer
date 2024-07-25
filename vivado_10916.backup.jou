@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Oct 12 19:25:55 2022
+# Process ID: 10916
+# Current directory: F:/Vivado_projects/S2_L2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7608 F:\Vivado_projects\S2_L2\S2_L1.xpr
+# Log file: F:/Vivado_projects/S2_L2/vivado.log
+# Journal file: F:/Vivado_projects/S2_L2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Vivado_projects/S2_L2/S2_L1.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
